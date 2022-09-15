@@ -36,7 +36,8 @@
                 app:layout_constraintHorizontal_bias="0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constrainedWidth="true" >
+                app:layout_constrainedWidth="true"
+                android:layout_marginRight="25dp">
 
                 <TextView
                     android:id="@+id/judulBerita"
