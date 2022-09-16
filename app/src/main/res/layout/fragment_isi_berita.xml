@@ -9,16 +9,6 @@
             type="com.example.latihanchapter4topic2.Berita" />
     </data>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".IsiBeritaFragment">
-
-<!--        <ScrollView-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent">-->
-
             <!-- TODO: Update blank fragment layout -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_margin="25dp"
@@ -30,7 +20,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:fontFamily="sans-serif-black"
-                    android:text="hhhhhhhhhhh@{berita.title}"
+                    android:text="@{berita.title}"
                     android:textColor="@color/black"
                     android:textSize="24sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +32,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/judulIsi"
-                    android:text="hhhhhhhhh@{berita.date}"
+                    android:text="@{berita.date}"
                     android:textSize="12sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/judulIsi" />
@@ -53,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/judulIsi"
                     android:layout_alignParentRight="true"
-                    android:text="hhhhhhhh@{berita.writer}"
+                    android:text="@{berita.writer}"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/judulIsi" />
@@ -68,16 +58,14 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/tanggalIsi" />
 
+
                 <TextView
                     android:id="@+id/isiBerita"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:justificationMode="inter_word"
-                    android:text="hhhhhhhhhhhhhhhhhhh@{berita.content}"
+                    android:text="@{berita.content}"
                     android:textSize="12sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/gambarIsi" />
             </androidx.constraintlayout.widget.ConstraintLayout>
-    </ScrollView>
 </layout>

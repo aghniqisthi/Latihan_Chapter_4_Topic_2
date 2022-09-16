@@ -25,5 +25,4 @@ class IsiBeritaFragment : Fragment() {
         gambarIsi.setImageResource(getData.image)
         isiBerita.text = getData.content
     }
-
 }
