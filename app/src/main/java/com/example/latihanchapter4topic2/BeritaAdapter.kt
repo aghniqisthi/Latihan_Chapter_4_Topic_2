@@ -1,10 +1,8 @@
 package com.example.latihanchapter4topic2
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.cardview.widget.CardView
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.latihanchapter4topic2.databinding.ItemBeritaBinding
